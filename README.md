@@ -12,7 +12,7 @@ In VirtualBox, click on "New".
 Enter a name and select the `.iso` file, then check the "Skip Unattended Installation" box.  
 ![](Assets/annotely_image%20(1).png)
 
-> **Warning**
+> **Warning**  
 > BE SURE TO CHECK THE "Skip Unattended Installation" BOX. IF IT IS NOT CHECKED, YOU WILL NEED TO ERASE AND RECREATE A NEW VIRTUAL MACHINE
 
 **Click on "Next".**
@@ -106,7 +106,7 @@ You can now access Odoo via `localhost:8069` in your browser.
 
 ### Bonita
 
-> **Warning**
+> **Warning**  
 > Do not submit your real informations to download
 
 Download latest version on : https://www.bonitasoft.com/downloads  
