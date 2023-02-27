@@ -43,7 +43,7 @@ After the system installation, click on "Restart Now".
 When the following screen appears, just press <kbd>Enter</kbd>  
 ![](Assets/Screenshot%20from%202023-02-27%2014-07-40.png)
 
-> **Note**
+> **Note**  
 > It is recommanded to open the rest of this tutorial in the VM Browser
 
 Open a terminal with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
