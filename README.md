@@ -5,6 +5,9 @@ cuz it never works
 Download latest stable version (LTS) on : https://ubuntu.com/download/desktop  
 You should now have a `ubuntu-<version>-desktop-amd64.iso` file.
 
+> **Note**  
+> Version 22.04 looks like this : `ubuntu-22.04.2-desktop-amd64.iso`
+
 ## VM Setup
 In VirtualBox, click on "New".  
 ![](Assets/annotely_image.png)
@@ -111,6 +114,9 @@ You can now access Odoo via `localhost:8069` in your browser.
 
 Download latest version on : https://www.bonitasoft.com/downloads  
 You should have a `BonitaStudioCommunity-<version>-x86_64.run` file
+
+> **Note**  
+> 2022 version looks like this : `BonitaStudioCommunity-2022.2-u0-x86_64.run`
 
 Go in your download folder and type
 ```
