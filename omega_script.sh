@@ -40,3 +40,5 @@ wget "${BONITA_HOST}"
 chmod +x $BONITA_FILE_NAME
 ./$BONITA_FILE_NAME
 echo "$BL---- Bonita: installation ${GREEN}done${NC} ----$BL"
+gio set ~/Desktop/*.desktop metadata::trusted true
+chmod a+x ~/Desktop/*.desktop
