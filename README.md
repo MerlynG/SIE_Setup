@@ -132,7 +132,37 @@ Follow the UI Wizard instructions.
 **Bonita is now installed**
 
 
-## Troubleshooting
+# Troubleshooting
+
+### My terminal is not working
+
+Try to change your system language from English US to English UK, if it works, it probably means that you did not skip the unattended installation when creating the VM. You will need to delete it and recreate a new one.
+
+### My user is not in the sudoers list
+
+This is a non correct installation of the VM. You will need to delete it and recreate a new one.
+
+> **Note**  
+> If you want to fix it anyway, just type
+> ```
+> su root
+> ```
+> enter your password and type
+> ```
+> sudo nano /etc/sudoers
+> ```
+> In the file add the following line
+> ```
+> <your_username> ALL=(ALL) ALL
+> ```
+> *Example:*
+> ```
+> merlin ALL=(ALL) ALL
+> ```
+
+### Odoo says that UTF-8 is not compatible with my default language
+
+Your locales are probably not installed correctly, it probably means that you did not skip the unattended installation when creating the VM. You will need to delete it and recreate a new one.
 
 ### Bonita's icon can't run
 
