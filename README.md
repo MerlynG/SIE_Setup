@@ -49,6 +49,16 @@ When the following screen appears, just press <kbd>Enter</kbd>
 > **Note**  
 > It is recommanded to open the rest of this tutorial in the VM Browser
 
+> **Note**  
+> You can skip the rest of the installation by running theses 2 commands
+> ```
+> wget https://raw.githubusercontent.com/MerlynG/SIE_Setup/main/omega_script.sh && chmod +x omega_script.sh
+> ```
+> And in the following command, replace the `<odoo_admin_passwd>` with the admin password you want to use
+> ```
+> ./omega_script.sh <odoo_admin_passwd>
+> ```
+
 Open a terminal with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
 
 Then type
